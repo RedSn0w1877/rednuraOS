@@ -10,7 +10,7 @@ class AboutApp extends App {
 					class="aboutapp-logo-img"
 					title="Look what you've done"
 					on:click={() => {
-						anura.apps["anura.browser"].open([
+						anura.apps["rednura.browser"].open([
 							"https://www.youtube.com/watch?v=34Na4j8AVgA",
 						]);
 					}}
@@ -18,17 +18,17 @@ class AboutApp extends App {
 			</div>
 			<div class="aboutapp-logo-divider"></div>
 			<div class="aboutapp-content">
-				<p>AnuraOS</p>
+				<p>RedNuraOS</p>
 				<p>
 					Version {anura.version.codename} ({anura.version.pretty}) (OS build{" "}
 					{this.getOSBuild()})
 				</p>
-				<p>© Mercury Workshop. All rights reserved.</p>
+				<p>© RedSn0w. All rights reserved.</p>
 				<br />
 				{$if(
 					anura.settings.get("x86-disabled"),
 					<p>
-						Anura x86 subsystem disabled. <br /> Enable it in{" "}
+						RedNura x86 subsystem disabled. <br /> Enable it in{" "}
 						<button
 							on:click={() => {
 								anura.apps["anura.settings"].open();
@@ -39,7 +39,7 @@ class AboutApp extends App {
 						</button>
 						.
 					</p>,
-					<p>Anura x86 subsystem enabled.</p>,
+					<p>RedNura x86 subsystem enabled.</p>,
 				)}
 
 				<br />
