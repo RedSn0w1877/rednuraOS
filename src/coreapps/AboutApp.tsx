@@ -1,5 +1,5 @@
 class AboutApp extends App {
-	name = "About Anura";
+	name = "About RedNura";
 	package = "anura.about";
 	icon = "/assets/icons/aboutapp.png";
 
@@ -46,8 +46,8 @@ class AboutApp extends App {
 
 				{$if(
 					anura.settings.get("bootFromOPFS"),
-					<p>Anura is booting from OPFS.</p>,
-					<p>Anura OPFS boot disabled.</p>,
+					<p>RedNura is booting from OPFS.</p>,
+					<p>RedNura OPFS boot disabled.</p>,
 				)}
 
 				<br />
