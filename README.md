@@ -88,6 +88,6 @@ See [SECURITY.md](./SECURITY.md) for reporting instructions.
 
 ## Credits
 
-RedNuraOS is created by RedSn0w Studios, Forked from AnuraOs, All rights reserved. 
+RedNuraOS is created by RedSn0w Studios, Forked from AnuraOs, All rights reserved.
 
 (p.s. for hackers: the entrypoint to RedNura is [src/Boot.tsx](./src/Boot.tsx))
